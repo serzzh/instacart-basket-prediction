@@ -1,0 +1,25 @@
+[[02/05/2020 12:55:15 PM]] 
+new run with parameters:
+{'batch_size': 128,
+ 'checkpoint_dir': './checkpoints',
+ 'early_stopping_steps': 30000,
+ 'enable_parameter_averaging': False,
+ 'grad_clip': 5,
+ 'keep_prob_scalar': 1.0,
+ 'learning_rate': 0.001,
+ 'log_dir': './logs',
+ 'log_interval': 20,
+ 'loss_averaging_window': 100,
+ 'lstm_size': 300,
+ 'min_steps_to_checkpoint': 5000,
+ 'num_restarts': 2,
+ 'num_training_steps': 200000,
+ 'num_validation_batches': 4,
+ 'optimizer': 'adam',
+ 'prediction_dir': './predictions',
+ 'reader': <__main__.DataReader object at 0x7f6038fe5dd8>,
+ 'regularization_constant': 0.0,
+ 'warm_start_init_step': 0}
+[[02/05/2020 12:55:15 PM]] From /usr/local/lib/python3.6/dist-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
